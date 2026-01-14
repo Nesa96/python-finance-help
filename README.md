@@ -1,9 +1,15 @@
-# Finance Analyzer
-A Python-based tool to process and classify financial transactions from a single CSV data source.
+# Finance Manager
+An interactive Python application to manage personal finances.
 
-## Logic & Processing
-The script implements a **classification engine** that iterates through a unified transaction log. It dynamically groups data by:
-- **Category:** Categorizes amounts into Income, Fixed Expenses, or Variable Expenses.
+## Key Features
+- **Interactive CLI Menu:** User-friendly interface to navigate through financial tools.
+- **Data Persistence:** Automatically saves new transactions to a CSV database.
+- **Savings Goal Calculator:** Predictive tool that calculates the extra monthly effort needed to reach a specific financial goal.
+
+## Technical Stack
+- **Language:** Python 3.x
+- **Storage:** CSV (Flat File Database).
 
 ## Usage
-Ensure you have a CSV file with the following headers: "Category", "Amount", "Description".
+1. Run `python financial_analyzer.py`
+2. Choose an option from the menu to manage your data or calculate goals.
