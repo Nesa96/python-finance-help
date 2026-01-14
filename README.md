@@ -3,7 +3,6 @@ A Python-based tool to process and classify financial transactions from a single
 
 ## Logic & Processing
 The script implements a **classification engine** that iterates through a unified transaction log. It dynamically groups data by:
-- **Month:** Temporal key.
 - **Category:** Categorizes amounts into Income, Fixed Expenses, or Variable Expenses.
 
 ## Usage
